@@ -12,11 +12,11 @@ plugins {
 android {
     compileSdk = 35
     namespace = "com.sdex.activityrunner"
-
+    buildToolsVersion = "35.0.1"
     defaultConfig {
         applicationId = "com.activitymanager"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 553
         versionName = "5.4.13"
 
